@@ -1,1 +1,12 @@
-name:
+name: тестовое приложение github
+
+on: [push]
+
+jobs:
+  deploy:
+    name: тест
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Тест 2
+        run: cat /etc/os-release
